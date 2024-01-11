@@ -1,0 +1,52 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 8px;
+    border-radius: 12px 32px 12px 12px;
+    background: #FFF;
+    max-width: 155px;
+    max-height: 195px;
+    position: relative;
+}
+
+.root > * {
+    margin-bottom: 5px;
+}
+
+.brand {
+    color: var(--Dark, #323232);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.price {
+    bottom: 5px;
+    color: var(--Dark, #323232);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    position: absolute;
+}
+
+.image {
+    width: 122px;
+    height: 122px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.add {
+    align-items: center;
+    background: #FF9F24;
+    border-radius: 8px 0px;
+    bottom: -5px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}

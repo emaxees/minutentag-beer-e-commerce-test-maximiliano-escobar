@@ -1,0 +1,29 @@
+.root {
+    padding: 7px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px; 
+    border-radius: 12px;
+}
+
+.primary {
+    color: #FFF;
+    background: var(--Primary-Color, #FF9F24);
+    border: 1px solid #FF9F24;
+}
+
+.secondary {
+    color: #969696;
+    background: transparent;
+    border: 1px solid #969696;
+}
+
+.secondary:hover {
+    color: #FF9F24;
+    border: 1px solid #FF9F24;
+}
+
+.primary:hover {
+    opacity: 0.9;
+}

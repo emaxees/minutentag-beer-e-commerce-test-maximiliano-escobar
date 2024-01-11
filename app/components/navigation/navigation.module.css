@@ -1,0 +1,6 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 36px;
+    list-style: none;
+}

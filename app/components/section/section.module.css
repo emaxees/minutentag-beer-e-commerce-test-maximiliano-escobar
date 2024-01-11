@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 36px;
+}
+
+.label {
+    color: var(--Dark);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.more {
+    color: var(--Medium-Dark);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    opacity: 0.6;
+}

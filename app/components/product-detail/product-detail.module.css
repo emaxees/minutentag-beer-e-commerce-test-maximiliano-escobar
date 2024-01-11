@@ -1,0 +1,103 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: inherit;
+    height: 240px;
+    mix-blend-mode: darken;
+}
+
+.box {
+    border-radius: 48px 48px 0px 0px;
+    background: #FFF;
+    padding: 80px 33px 40px;
+}
+
+.specs { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: #0F0D23;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.more {
+    color: var(--Medium, #969696);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    color: var(--Primary-Color, #FF9F24);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.information { 
+    margin-top: 29px;
+}
+
+.label {
+    color: var(--Dark, #323232);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.content { 
+    color: #969696;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.size {
+    color: var(--Dark, #323232);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sizes > *:not(:last-child){
+    margin: 0 8px 8px 0;
+}
+
+.add {
+    padding: 12px;
+}
+
+.bag { 
+    padding: 7px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.buttons >*:first-child {
+    margin-right: 24px;
+}
+
+.buttons >*:last-child {
+    flex-grow: 1;
+}

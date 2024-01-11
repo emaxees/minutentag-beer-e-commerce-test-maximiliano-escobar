@@ -1,0 +1,35 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.root > ul {
+    position: sticky;
+    bottom: 0;
+    background: #FFF;
+    box-shadow: 1px -6px 5px -1px rgb(0 0 0 / 1%);
+}
+
+.categories {
+    display: flex;
+    padding: 24px 36px;
+}
+
+.categories > * {
+    margin: 0 16px;
+}
+
+.products {
+    padding: 24px 36px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+}
+
+.products a {
+    text-decoration: none;
+}
